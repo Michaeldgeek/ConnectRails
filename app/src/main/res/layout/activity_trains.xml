@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="info.mykroft.views.activities.TrainsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/trains_rv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+        <TextView
+            android:id="@+id/empty_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:visibility="gone"
+            android:layout_centerInParent="true"
+            android:text="No trains have been added"
+            android:textColor="#9ba0aa"
+            android:textSize="16sp" />
+        <com.pnikosis.materialishprogress.ProgressWheel
+            android:id="@+id/progress_wheel_frag"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true"
+            app:matProg_barColor="#5588FF"
+            app:matProg_progressIndeterminate="true" />
+    </RelativeLayout>  
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/new_train"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:visibility="gone"
+        app:srcCompat="@drawable/ic_plus" />
+
+</android.support.design.widget.CoordinatorLayout>

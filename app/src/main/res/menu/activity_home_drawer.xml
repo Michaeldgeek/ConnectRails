@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_track"
+            android:icon="@drawable/ic_action_search"
+            android:title="Track Cargo" />
+        <item
+            android:id="@+id/nav_cargo"
+            android:icon="@drawable/ic_train"
+            android:title="Way Bill" />
+        <item
+            android:id="@+id/log_train"
+            android:icon="@drawable/ic_log"
+            android:title="Log Train" />
+        <item
+            android:id="@+id/nav_location"
+            android:icon="@drawable/ic_report"
+            android:title="Documentation" />
+    </group>
+
+
+</menu>

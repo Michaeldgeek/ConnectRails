@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.synnapps.carouselview.CarouselView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/carouselView"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    app:fillColor="@android:color/transparent"
+    app:pageColor="@android:color/transparent"
+    app:radius="0dp"
+    app:slideInterval="3000"
+    app:strokeColor="@android:color/transparent"
+    app:strokeWidth="0dp" />
+

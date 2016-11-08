@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1889881162",
+    "firebase_url": "https://connect-rails-dc39e.firebaseio.com",
+    "project_id": "connect-rails-dc39e",
+    "storage_bucket": "connect-rails-dc39e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1889881162:android:ed3bd6d403c1588d",
+        "android_client_info": {
+          "package_name": "info.mykroft"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1889881162-md0a6imkkcsvhu6kbepq8b6lcutdtl9o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByYPKPD6yWsHreff0L6RGE9onOm5MSfIU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
